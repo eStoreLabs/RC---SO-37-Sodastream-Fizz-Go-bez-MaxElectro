@@ -145,7 +145,7 @@ $bg-fourtiary: #e5dcd3;
     }
 
     &__title {
-      margin-bottom: 35px;
+      margin-bottom: 15px;
       font-size: 16px;
       font-family: $font-bold;
       font-weight: 700;
@@ -222,15 +222,9 @@ $bg-fourtiary: #e5dcd3;
 
   .es-benefits {
     padding-top: 30px;
-    padding-bottom: 30px;
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      color-stop(20%, $bg-secondary),
-      color-stop(50%, #72b1c3)
-    );
-    background: #72b1c3 &__img {
+    background: $bg-secondary;
+
+    &__img {
       margin-bottom: 30px;
     }
 
@@ -259,6 +253,10 @@ $bg-fourtiary: #e5dcd3;
       margin-bottom: 20px;
       font-size: 16px;
       font-family: $font-regular;
+    }
+
+    &__content {
+      background: #72b1c3;
     }
 
     &__content-title {
@@ -378,6 +376,7 @@ $bg-fourtiary: #e5dcd3;
   .es-steps {
     background: $bg-secondary;
     padding-bottom: 50px;
+    padding-top: 35px;
 
     &__group {
       position: relative;
@@ -948,7 +947,7 @@ $bg-fourtiary: #e5dcd3;
       }
 
       &__bottle-content-warning {
-        margin-bottom: -52px;
+        margin-bottom: -65px;
       }
 
       &__inner {
@@ -1482,7 +1481,7 @@ $bg-fourtiary: #e5dcd3;
       }
 
       &__bottle-content-warning {
-        margin-bottom: -25px;
+        margin-bottom: -50px;
         text-align: center;
       }
     }
