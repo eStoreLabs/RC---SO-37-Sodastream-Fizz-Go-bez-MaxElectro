@@ -257,6 +257,8 @@ $bg-fourtiary: #e5dcd3;
 
     &__content {
       background: #72b1c3;
+      margin-top: -300px;
+      padding-top: 300px;
     }
 
     &__content-title {
@@ -807,7 +809,7 @@ $bg-fourtiary: #e5dcd3;
 
         &--1 {
           top: 40%;
-          left: 4%;
+          left: 1%;
           max-width: 100px;
         }
 
@@ -851,6 +853,11 @@ $bg-fourtiary: #e5dcd3;
       &__img {
         max-width: 380px;
         margin-right: 0;
+      }
+
+      &__content {
+        margin-top: 0;
+        padding-top: 0;
       }
 
       &__content-list {
